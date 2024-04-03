@@ -1,11 +1,11 @@
 '''
 생명공학과 2021163102 송규헌
-Github : https://github.com/Gyuheon-Song
+https://github.com/Gyuheon-Song/Bioinformatics
 2024-1 생명정보학 Problem Set 01
 Problem no. 3
 Viterbi Algorithm을 구현하여 amino acid sequence "DELIFFLIF" 에 대한 most likely state sequence 구하기
 files needed : soluble_sequences_aa_freq.txt , transmembrane_sequences_aa_freq.txt , state_sequences_tr_freq.txt
-usage : /Viterbi_algorithm.py  Ctrl+F5로 Run
+usage : github에서 repo clone 후에 /Viterbi_algorithm.py  Ctrl+F5로 Run
 result : console창에 viterbi matrix와 hidden state sequence출력
 '''
 
