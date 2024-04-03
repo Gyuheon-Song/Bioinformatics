@@ -1,0 +1,7 @@
+Start probability of S is 0.788136664480353
+Start probability of T is 0.211863335519647
+
+Transition probability of S -> S is 0.9872140687721683
+Transition probability of S -> T is 0.012785931227831702
+Transition probability of T -> T is 0.9526608562484516
+Transition probability of T -> S is 0.04733914375154832

@@ -1,0 +1,34 @@
+>argA-1 32->50
+acagaataaaaatacact
+>argA-2 11->29 
+ttcgaataatcatgcaaa
+>argD-1 51->69
+agtgattttttatgcata
+>argD-2 30->48
+tgtggttataatttcaca
+>argECBH-1 26->44
+tatcaatattcatgcagt
+>argECBH-2 47->65
+tatgaataaaaatacact
+>argF-1 48->66
+aatgaataattacacata
+>argF-2 27->45
+agtgaattttaattcaat
+>argG-1 73->91
+attaaatgaaaactcatt
+>argG-2 52->70
+tttgcataaaaattcagt
+>argG-3 192->210
+tgtgaatgaatatccagt
+>argI-1 46->64
+aatgaataatcatccata
+>argI-2 25->43
+attgaattttaattcatt
+>argR-1 45->63
+tttgcataaaaattcatc
+>argR-2 24->42
+tatgcacaataatgttgt
+>carAB-1 32->50
+tgtgaattaatatgcaaa
+>carAB-2 11->29
+agtgagtgaatattctct
