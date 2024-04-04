@@ -5,7 +5,7 @@ https://github.com/Gyuheon-Song/Bioinformatics
 Problem no. 3
 Viterbi Algorithm을 구현하여 amino acid sequence "DELIFFLIF" 에 대한 most likely state sequence 구하기
 files needed : soluble_sequences_aa_freq.txt , transmembrane_sequences_aa_freq.txt , state_sequences_tr_freq.txt
-usage : github에서 repo clone 후에 /Viterbi_algorithm.py  Ctrl+F5로 Run
+usage : github repo clone -> /Viterbi_algorithm.py -> Ctrl+F5(Windows) or Cmd+Shift+B 후에 Run(MacOS)
 result : console창에 viterbi matrix와 hidden state sequence출력
 '''
 
@@ -101,7 +101,7 @@ Viterbi Algorithm
 def Viterbi(sequence) :
 
     l = len(sequence)
-    # initializing viterbi matrix
+    # initializing sequence probability matrix
     for i in range(l) :
         seq_matrix[0][i][1] = sol_map[sequence[i]]
         seq_matrix[1][i][1] = trans_map[sequence[i]]
@@ -111,7 +111,7 @@ def Viterbi(sequence) :
     for j in range(2) :
         seq_matrix[j][0][1] *= start_prob[j]
 
-    # viterbi algorithm using dp(3 dimensional array)
+    # viterbi algorithm using 3 dimensional array
     for aaidx in range(1, l) :
         for j in range(2) :
             for k in range(2) :
@@ -168,6 +168,6 @@ if __name__ == "__main__" :
     # 누적곱과 각 이전노드(경로) 보기 -> 위의 코드에서 배열명 'dp'에 저장
     '''
     for item in dp :
-        print(dp)
+        print(item)
     '''
 
